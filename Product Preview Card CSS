@@ -1,0 +1,152 @@
+@media only screen and (max-width:375px) {
+
+  .flex-container {
+    flex-flow: row wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #chanel_perfume {
+    width: 320px;
+    height: 400px;
+    margin-top: -30%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .image {
+    padding-top: 20px;
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .page {
+    width: 292px;
+    height: 360px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 14px 30px 14px;
+  }
+
+  .title {
+    padding-top: 10px;
+  }
+
+}
+
+@media screen and (min-width:376px) {
+
+  .flex-container {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  #chanel_perfume {
+    width: 285px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .image {
+    width: 285px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .page {
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .flex-item {
+    height: 450px;
+  }
+
+  .title {
+    padding-top: 20px;
+  }
+
+  .title,
+  .perfume_name,
+  .description,
+  .prices,
+  button {
+    width: 225px;
+  }
+
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3eae3;
+}
+
+.flex-item {
+  background-color: white;
+}
+
+.cart {
+  width: 20px;
+  margin-right: 5px;
+}
+
+p,
+.original_price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.original_price {
+  text-decoration: line-through;
+}
+
+h1,
+.price {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+}
+
+.pefrume_name {
+  color: hsl(212, 21%, 14%);
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: hsl(158, 36%, 20%);
+}
