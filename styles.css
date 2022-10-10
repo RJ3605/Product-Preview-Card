@@ -52,8 +52,9 @@ main {
   font-size: 30px;
 }
 
-span.perfume_name {
+h1.perfume_name {
   color: hsl(212, 21%, 14%);
+  margin: 0;
 }
 
 .price {
